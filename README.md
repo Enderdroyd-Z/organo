@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# ⏲️ Organo
+   Organo é uma aplicação web para ajudar na organização dos estudos diários. Com ela, você pode adicionar tarefas, definir um tempo de estudo e acompanhar o progresso através de um cronômetro. Após concluir, as tarefas são marcadas como finalizadas e ficam indisponíveis.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 📝 Sobre o Projeto
+O Organo nasceu como um projeto desenvolvido originalmente em ```JavaScript``` utilizando ```React```, com o objetivo de explorar conceitos fundamentais do framework, como componentes, gerenciamento de estado e criação de formulários.
 
-## Available Scripts
+Posteriormente, o projeto foi migrado para ```TypeScript``` (TSX), com o intuito de aprimorar a qualidade do código e implementar boas práticas no desenvolvimento. Essa migração trouxe benefícios como:
 
-In the project directory, you can run:
+- ```Tipagem estática:``` Melhor previsibilidade e menor probabilidade de erros em tempo de execução.
+- ```Autocompletar e IntelliSense:``` Desenvolvimento mais rápido e seguro com ferramentas mais precisas.
+- ```Manutenibilidade:``` Um código mais legível e organizado, facilitando a escalabilidade do projeto.
 
-### `npm start`
+## 🌟 Funcionalidades:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🆕 Adicionar membros a equipes de trabalho
+- 🖼️ Inserir imagem personalizada para cada membro
+- 🏢 Definir o time ao qual o membro pertence
+- 📋 Exibir a lista de equipes organizadas com seus respectivos membros
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div style="display: inline_block"></br>
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+</div>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Como Instalar e Rodar o Projeto:
 
-### `npm run eject`
+```bash
+git clone https://github.com/seu-usuario/organo.git
+cd Alura Study
+npm install
+npm start
+```
+Acesse: http://localhost:3000 no navegador
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👨‍🎓 Esse projeto foi feito com o curso: **React: desenvolvendo com JavaScript** da Alura, onde foi trabalhado:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Criar uma aplicação com React
+- Descreva as vantagens da utilização do React
+- Implemente componentes reativos
+- Investigue e analise mensagens de erro
+- Modifique e evolua componentes de acordo com a necessidade do projeto
+  
+ 📖 [Certificado](https://cursos.alura.com.br/user/be-srodrigues24/course/react-desenvolvendo-javascript/certificate)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+👨‍🎓 Esse projeto foi feito com o curso: **React: migrando para TypeScriptt** da Alura, onde foi trabalhado:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Entenda as principais diferenças entre TS e JS
+- Utilize o Intelisense do VSCode
+- Experimente as vantagens do TypeScript
+- Integre componentes React ao TypeScript
+- Prototipe um plano de migração de um projeto JS para TS
+  
+ 📖 [Certificado](https://cursos.alura.com.br/user/be-srodrigues24/course/react-migrando-typescript/certificate)
